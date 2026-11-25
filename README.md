@@ -86,4 +86,4 @@ Si GitHub change son interface et qu'un label n'est plus coloré, ouvrez une iss
 
 ## 📄 Licence
 
-Distribuée sous licence MIT.
+Distribuée sous licence MIT. Voir le fichier [LICENSE](LICENSE).
