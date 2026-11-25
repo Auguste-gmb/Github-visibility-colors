@@ -1,19 +1,19 @@
 {
-	"manifest_version": 3,
-	"name": "GitHub Public/Private Colors",
-	"version": "1.0",
-	"description": "Colore en vert les dépôts publics et en rouge les dépôts privés sur GitHub.",
-	"icons": {
-		"16": "icons/icon16.png",
-		"48": "icons/icon48.png",
-		"128": "icons/icon128.png"
-	},
-	"content_scripts": [
-		{
-			"matches": ["https://github.com/*"],
-			"js": ["content.js"],
-			"css": ["style.css"],
-			"run_at": "document_idle"
-		}
-	]
+  "manifest_version": 3,
+  "name": "GitHub Public/Private Colors",
+  "version": "1.0",
+  "description": "Colore en vert les dépôts publics et en rouge les dépôts privés sur GitHub.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
 }
