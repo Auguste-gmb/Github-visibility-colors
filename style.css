@@ -1,0 +1,16 @@
+/*
+ * On réutilise les variables CSS natives de GitHub : elles changent
+ * automatiquement avec le thème (clair, sombre, dark dimmed, high contrast,
+ * daltonien, mode "sync with system"...).
+ */
+.gh-vis-public {
+  color: var(--fgColor-success, var(--color-success-fg, #1a7f37)) !important;
+  background-color: var(--bgColor-success-muted, var(--color-success-subtle, rgba(46, 160, 67, 0.15))) !important;
+  border-color: var(--borderColor-success-muted, var(--color-success-muted, rgba(46, 160, 67, 0.4))) !important;
+}
+
+.gh-vis-private {
+  color: var(--fgColor-danger, var(--color-danger-fg, #cf222e)) !important;
+  background-color: var(--bgColor-danger-muted, var(--color-danger-subtle, rgba(248, 81, 73, 0.15))) !important;
+  border-color: var(--borderColor-danger-muted, var(--color-danger-muted, rgba(248, 81, 73, 0.4))) !important;
+}
